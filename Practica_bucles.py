@@ -68,3 +68,32 @@ if valido:
     print("Email correcto")
 else:
     print("Email incorrecto")
+
+# La instruccion continue hace que cuando entre ahi salte de nuevo al bucle y evita imprimir por consola la letra H
+for letra in "Python":
+    if letra=="h":
+        continue
+    print("Viendo la letra: " + letra)
+
+# Otro ejemplo con el continue
+nombre="Pildoras Informaticas"
+contador=0
+for i in nombre:
+    if i==" ":
+        continue
+    contador+=1
+print(contador)
+
+# Ejemplo de la sentencia pass, devuelve nulo
+class MiClase:
+    pass # Para implementar mas tarde
+
+# Ejemplo del else en el bucle for, solo se ejecuta cuando el for termina toda su ejecucion, si sale por un break no se ejecuta lo del else
+email=input("Introduce tu email, por favor: ")
+for i in email:
+    if i=="@":
+        arroba=True
+        break;
+else:
+    arroba=False
+print(arroba)
