@@ -1,3 +1,4 @@
+# Ejemplo de bloque try-except para capturar excepciones
 def suma(num1, num2):
 	return num1+num2
 

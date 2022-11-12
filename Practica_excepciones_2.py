@@ -1,3 +1,4 @@
+# Ejemplo de capturar 2 tipos de excepciones diferentes y de la funcion de finally
 def divide():
     try:
         op1=(float(input("Introduce el primer numero: ")))

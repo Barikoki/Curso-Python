@@ -13,7 +13,7 @@ print("El numero insertado no es mayor que el anterior, hasta siempre!")
 # Ejercicio 2
 # Crea un programa que pida números positivos indefinidamente. El programa termina cuando se 
 # introduce un número negativo. Finalmente el programa muestras la suma de todos los números 
-# introducidos
+# introducidos.
 num=int(input("Por favor, introduzca un numero positivo\n"))
 total=0
 
